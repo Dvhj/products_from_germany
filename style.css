@@ -360,6 +360,7 @@ a:active {
 		flex-direction: column;
 	}
 	.about_img {
+		background-attachment: scroll;
 		height: 40vh;
 		width: 100%;
 		margin: 0;
