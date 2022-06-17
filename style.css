@@ -134,6 +134,7 @@ a:active {
 	justify-content: center;
 	display: flex;
 	grid-gap: 10%;
+	flex-wrap: wrap;
 }
 .service_section {
 
@@ -306,6 +307,10 @@ a:active {
 		justify-content: center;
 		width: 100%;
 	}
+	.service_box{
+		padding-top:1%; 
+		height: 100%;
+	}
 	.service_sections{
 		margin-top: 20px;
 		justify-content: center;
@@ -342,7 +347,7 @@ a:active {
 	}
 	.service_box{
 		padding-top:1%; 
-		height: 33vh;
+		height: 100%;
 	}
 	.service_sections {
 		margin: 0 1%;
@@ -359,6 +364,7 @@ a:active {
 	}
 	.section_title {
 		font-size: 1.2em;
+		margin-bottom: 1%;
 	}
 	.section_subtitle {
 		font-size: 1em;
