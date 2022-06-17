@@ -46,9 +46,9 @@ nav {
 }
 
 @keyframes upDown {
-	0% {transform: translateY(5px);}
+	0% {transform: translateY(3px);}
 	50%{transform: translateY(0)}
-	100% {transform: translateY(5px)}
+	100% {transform: translateY(3px)}
 }
 
 .navbar{
@@ -234,6 +234,7 @@ a:active {
 	top:20%;
 	position: absolute;
 	background: linear-gradient(91.1deg, rgba(244, 246, 245, 0.9) -7.89%, rgba(255, 255, 255, 0.9) 132.55%);
+	animation: upDown 3s infinite;
 }
 
 .order_text p{
@@ -247,7 +248,7 @@ a:active {
 	margin-left: 10%;
 	cursor: pointer;
 	background: rgba(37, 77, 77, 0.8);
-	animation: upDown 2s infinite;
+	animation: upDown 3s infinite;
 }
 
 .order_box p{
@@ -278,21 +279,23 @@ a:active {
 }
 .number {}
 .soc_networks {}
-.email {}
+.email {
+	margin-top: 1%;
+}
 .author {
 	text-align: center;
 	font-size:10px;
 	width: 2%;
 }
 
-.order_block{
+/*.order_block{
 	top: 20% ;
 	left: ;
 	position: absolute;
 	background: white;
 	border: 2px solid gray;
 
-}
+}*/
 
 
 @media screen and (max-width: 1000px) {
@@ -308,6 +311,9 @@ a:active {
 		justify-content: center;
 		display: flex;
 		grid-gap: 3%;
+	}
+	.info_subtitle {
+		font-size: 1em;
 	}
 	.header_info{
 		width: 80%;
@@ -336,6 +342,7 @@ a:active {
 	}
 	.service_box{
 		padding-top:1%; 
+		height: 30vh;
 	}
 	.service_sections {
 		margin: 0 1%;
@@ -368,6 +375,7 @@ a:active {
 	.about_info {
 		width: 100%;
 		text-align: justify;
+		margin-top: 1%;
 	}
 	.info_subtitle {
 		font-size: 1.2em;
